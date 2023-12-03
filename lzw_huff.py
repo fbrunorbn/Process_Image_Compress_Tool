@@ -5,6 +5,7 @@ from collections import Counter
 import heapq
 from collections import defaultdict
 import os
+import struct
 
 
 # Leitura da imagem usando OpenCV
