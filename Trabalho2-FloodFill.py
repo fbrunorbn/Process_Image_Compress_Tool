@@ -155,7 +155,6 @@ class MouseCaptureApp:
 
     def morphy_flood_fill(self, image, seed, kernel):
         global marker
-        cv.imwrite("imagem_pintada.bmp", image)
         height, width = image.shape[:2]
 
         # Imagem de marcação para o flood fill - é a que vou aplicar a convolucao
